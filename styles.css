@@ -1,0 +1,27 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 2px solid #000; /* Black border for the canvas */
+    background-color: #fff; /* White background for the canvas */
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #333; /* Dark grey color for the score */
+    margin: 0;
+}
